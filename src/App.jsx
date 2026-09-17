@@ -36,7 +36,7 @@ const App = () => {
             <a href="#" className="btn">Learn more</a>
               </div>
         <div className="about-image">
-            <img src={}/>
+            <img src={image}alt="123"/>
 
         </div>
      </section>
