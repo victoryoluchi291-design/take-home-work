@@ -1,4 +1,5 @@
 import React from 'react'
+import image from "./assets/imagees 7.jpg";
 
 const App = () => {
   return (
@@ -35,7 +36,7 @@ const App = () => {
             <a href="#" className="btn">Learn more</a>
               </div>
         <div className="about-image">
-            <img src="images 7.jpg" alt="student learning" />
+            <img src={}/>
 
         </div>
      </section>
