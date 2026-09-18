@@ -1,6 +1,7 @@
 import React from 'react'
 import image from "./assets/images7.jpg";
 import cardimage from "./assets/image3.jpg";
+import cardimage2 from "./assets/images35.jpg";
 
 const App = () => {
   return (
@@ -54,7 +55,7 @@ const App = () => {
 
 </div>
         <div className="card">
-            <img src="c:\Users\Daniel\Downloads\images 35.jpg" alt="student image"/>
+            <img src={cardimage2} alt="678"/>
              <h3>Daniel Bethel</h3>
             <p>my experience with the academy has been very positive. </p>
 
