@@ -1,5 +1,6 @@
 import React from 'react'
 import image from "./assets/images7.jpg";
+import cardimage from "./assets/image3.jpg";
 
 const App = () => {
   return (
@@ -47,7 +48,7 @@ const App = () => {
    
      <div className="testimonial-container">
         <div className="card">
-            <img src="c:\Users\Daniel\Downloads\images 34" alt="student image"/>
+            <img src={cardimage} alt="456"/>
             <h3>Favor Sonia</h3>
             <p>This academy has helped me gain knowledge of gaining tech/digital skills. it has been an excellent.</p>
 
