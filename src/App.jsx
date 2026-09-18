@@ -2,6 +2,7 @@ import React from 'react'
 import image from "./assets/images7.jpg";
 import cardimage from "./assets/image3.jpg";
 import cardimage2 from "./assets/images35.jpg";
+import cardimage3 from "./assets/images36.jpg";
 
 const App = () => {
   return (
@@ -61,7 +62,7 @@ const App = () => {
 
         </div>
         <div className="card">
-            <img src="c:\Users\Daniel\Downloads\images 36.jpg" alt="student image"/>
+            <img src={cardimage3} alt="900"/>
              <h3>Joy sunday</h3>
             <p>i would recommend the academy to anyone looking to start a career in tech.</p>
 
