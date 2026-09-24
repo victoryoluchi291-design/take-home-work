@@ -1,31 +1,26 @@
 import React from 'react'
-
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import About from "./components/About/About"
-import Testimonial from "./components/Testimonial/Testimonial"
-import Cta from "./components/Cta/Cta"
-import Footer from "./components/Footer/Footer"
-
-
-
-
+import LandingPageScreen from './Screens/LandingPageScreen';
+import { Route, Routes } from 'react-router-dom';
+import ContactUsScreen from './Screens/ContactUsScreen';
+import Header from './components/Header/Header';
+import AboutusScreen from './Screens/AboutusScreen';
+import Footer from "./components/Footer/Footer";
+import ServicesScreen from './Screens/ServicesScreen';
 
 const App = () => {
   return (
-    <div>  
-      <Header/>
-<Hero />
- <About />
- <Testimonial />
- <Cta />
- <Footer />
- <div />
+    <div> 
+      <Header />
+    <Routes>
+      <Route path="/" element={<LandingPageScreen />} />
+      <Route path="/ContactUsScreen" element={<ContactUsScreen />} />
+      <Route path="/AboutusScreen" element={<AboutusScreen />} />
+      <Route path="/ServicesScreen" element={<ServicesScreen />} />
+    </Routes>
+    <Footer />
+    <div />
  
-    
-
-
-  </div>
+    </div>
   )
 }
 

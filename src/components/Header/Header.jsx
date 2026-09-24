@@ -1,15 +1,20 @@
 import React from 'react'
-import "./header.css"
+import "./Header.css";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
     <div>
       <section>
           <header>
-       <div className="nav-link-text"> <a href="">Name</a></div>
-      <div className="nav-link-text"> <a href="">About</a></div>
-      <div className="nav-link-text"> <a href="">Content</a></div>
-       <div className="nav-link-text"> <a href="">Services</a></div>
+       <div className="nav-link-text"> <Link to="/">HOME</Link>
+       </div>
+      <div className="nav-link-text"> <Link to="/ContactUsScreen">CONTACT</Link>
+      </div>
+      <div className="nav-link-text"> <Link to="/AboutusScreen">ABOUT</Link>
+      </div>
+       <div className="nav-link-text">  <Link to="/ServicesScreen">SERVICES</Link>
+       </div>
       
           </header>
       </section> 
