@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingPageScreen from './Screens/LandingPageScreen';
+import LandingPageScreen from './Screens/HomePageScreen';
 import { Route, Routes } from 'react-router-dom';
 import ContactUsScreen from './Screens/ContactUsScreen';
 import Header from './components/Header/Header';
