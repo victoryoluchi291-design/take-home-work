@@ -1,0 +1,159 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.About{
+    min-height: 700px;
+    width: 100%;
+   
+    background-image: url(../assets/images95.jpg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.text-boxs{
+    text-align: center;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-boxs h1{
+    font-size: 64px;
+}
+.text-boxs p{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.About-image{
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin-bottom: 0;
+    }
+    .About-image img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        display: block;
+    }
+    .About-writeup{
+        width: 90%;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 50px 20px;
+        text-align: center;
+        background-color: white;
+      
+       
+    }
+     .About-writeup h1{
+        font-size: 45px;
+        margin-bottom: 30px;
+     }
+      .About-writeup h2{
+        font-size: 30px;
+        margin-bottom: 40px;
+        color: purple;
+      }
+       .About-writeup p{
+        font-size: 20px;
+        line-height: 1.7;
+        margin-bottom: 35px;
+       }
+       .story-cta{
+        background-color:  rgb(58, 17, 58);;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+       }
+          .story-cta h2{
+            color: white;
+            font-size: 40px;
+            margin: 0;
+        }
+           .story-cta button{
+            background-color:rgb(184, 68, 184) ;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 20px 35px;
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+             transition: 0.3s;
+             text-decoration: none;
+           }
+            .story-cta button:hover{
+                background-color: black;
+                    color: white;
+            }
+            @media (max-width: 768px) {
+                .About {
+                 width: 100%;
+                    padding: 30px 20px;
+                    }
+                    .text-boxs{
+                        text-align: center;
+                    }
+                     .text-boxs h1{
+                        font-size: 35px;
+                     }
+                      .text-boxs p{
+                        font-size: 16px;
+                        line-height: 1.6;
+                      }
+                      .About-image{
+                        width: 100%;
+                        margin-bottom: 0;
+                      }
+                      .About-image img{
+                        width: 100%;
+                        height: auto;
+                        display: block;
+                      }
+                       .About-writeup{
+                        width: 100%;
+                        padding: 25px;
+                        box-sizing: border-box;
+                        margin-top: 50px;
+                       }
+                       .About-writeup h1{
+                        font-size: 28px;
+                       }
+                        .About-writeup h2{
+                            font-size: 22px;
+                        }
+                         .About-writeup p{
+                            font-size: 16px;
+                            line-height: 1.6;
+                         }
+                         .story-cta{
+                            flex-direction: column;
+                            text-align: center;
+                            gap: 20px;
+                            padding: 40px 20px;
+                         }
+                           .story-cta h2{
+                            font-size: 30px;
+                           }
+                             .story-cta button{
+                                width: 180px;
+                                font-size: 16px;
+                                padding: 15px 20px;
+                             }
+
+
+                    
+            }

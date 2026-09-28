@@ -23,9 +23,9 @@ const Footer = () => {
           {/* <!-- contact --> */}
            <div className="footer-box">
             <h3>Contact Us</h3>
-            <p>Email: info@example.com</p>
-            <p>phone: +234 800 000 0000</p>
-            <p>owerri: Imo State</p>
+            <p>Email: lamistudiostech@gmail.com</p>
+            <p>phone: +234 806 886 8942</p>
+            <p>Akwa Ibom: Nigeria</p>
            </div>
     </div>
     {/* <!-- copyright --> */}

@@ -1,0 +1,145 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.service{
+    min-height: 700px;
+    width: 100%;
+   
+    background-image: url(../assets/images84.jpg);
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+}
+.text-box{
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text-box h1{
+    font-size: 64px;
+}
+.text-box p{
+    color: plum;
+    font-weight: bold;
+    font-size:18px ;
+  }
+  /* services */
+.services-section{
+    padding: 70px 8%;
+    text-align: center;
+}
+/* service cards */
+.services-container{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 30px;
+    }
+    .service-card{
+        padding: 35px;
+        background-color: #f3eded;
+        border-radius: 12px;
+        text-align: left;
+    }
+    .service-card h3{
+        font-size: 25px;
+        margin-bottom: 15px;
+        
+    }
+    .service-card p{
+        font-size: 16px;
+        line-height: 1.3;
+        text-align: left;
+
+    }
+    .service-card button{
+        background-color: rgb(184, 68, 184);
+        color: white;
+        border: none;
+        text-decoration: none;
+        margin-top: 20px;
+        padding: 12px 25px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+         transition: 0.3s;
+    }
+    .service-card button:hover{
+        background-color: black;
+        color: white;
+    }
+
+     .service-card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        border-radius: 8px;
+     }
+     @media (max-width: 768px) {
+
+  /* Services hero section */
+  .service {
+    width: 100%;
+  }
+
+  .text-box {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .text-box h1 {
+    font-size: 40px;
+  }
+
+  .text-box p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+
+  /* Services section */
+  .services-section {
+    padding: 40px 20px;
+  }
+
+  .services-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+
+  /* Service cards */
+  .services-card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .services-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .services-card h3 {
+    font-size: 24px;
+  }
+
+  .services-card p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .services-card button {
+    padding: 12px 25px;
+    font-size: 16px;
+  }
+
+}
+
+    

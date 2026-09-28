@@ -7,7 +7,7 @@ const Cta = () => {
  <section className="cta">
     <div className="cta-content">
        <h2>Ready to start your learning journey</h2>
-       <p>join us to start learn digital skills for a better future</p>
+       <p>join us to start learning digital skills for a better future</p>
        <a href="" className="cta-button">Get started</a>
     </div>
  </section>
