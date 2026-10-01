@@ -6,7 +6,8 @@ import Header from './components/Header/Header';
 import AboutusScreen from './Screens/AboutusScreen';
 import Footer from "./components/Footer/Footer";
 import ServicesScreen from './Screens/ServicesScreen';
-
+import LoginScreen from "./Screens/LoginScreen";
+import RegistrationForm from "./Screens/RegistrationForm";
 
 const App = () => {
   return (
@@ -14,9 +15,13 @@ const App = () => {
       <Header />
     <Routes>
       <Route path="/" element={<HomePageScreen />} />
-      <Route path="/ContactUsScreen" element={<ContactUsScreen />} />
-      <Route path="/AboutusScreen" element={<AboutusScreen />} />
-      <Route path="/ServicesScreen" element={<ServicesScreen />} />
+      <Route path="/ContactUs" element={<ContactUsScreen />} />
+      <Route path="/Aboutus" element={<AboutusScreen />} />
+      <Route path="/Services" element={<ServicesScreen />} />
+      <Route path="/HomePage" element={<HomePageScreen />} />
+      <Route path="/Login" element={<LoginScreen />} />
+      <Route path="/Register" element={<RegistrationForm />} />
+
     </Routes>
     <Footer />
     <div />
